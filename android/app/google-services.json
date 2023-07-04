@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "708453223907",
+    "firebase_url": "https://kidmanagement-2e915.firebaseio.com",
+    "project_id": "kidmanagement-2e915",
+    "storage_bucket": "kidmanagement-2e915.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708453223907:android:67741fef2dc5d004cca4d6",
+        "android_client_info": {
+          "package_name": "anhnd.kid_management"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708453223907-nqc539issjh5inaffk1dr2n9cjccg22i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChbyOuMGUCduxgszuqFU2YHdOqf4x_vgE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708453223907-nqc539issjh5inaffk1dr2n9cjccg22i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,106 @@
+name: kid_management
+description: An application that allow parents control their kids
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.1+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  
+  flutter:
+    sdk: flutter
+  firebase_core: "^0.5.1"
+  firebase_database: "^4.2.0"
+  firebase_auth: "^0.18.1+2"
+  # library to render SVG image
+  flutter_svg: ^0.19.0
+  # library to get all installed applications on device
+  device_apps: ^1.2.0
+  # library to show date time picker dialog
+  flutter_datetime_picker: ^1.4.0
+  # library to convert DateTime obj to formated String
+  intl: ^0.16.1
+  # library to display toast message on the screen
+  fluttertoast: ^7.1.1
+  # sqlite database library
+  sqflite: ^1.3.1+1
+  path: ^1.7.0
+  path_provider: ^1.6.27
+  # library to show PIN code form
+  pin_code_fields: ^5.0.0
+  # library to validate text data
+  regexpattern: ^1.0.0
+  # present percent circle
+  percent_indicator: ^2.1.8
+  # draw and present pie chart
+  pie_chart: ^4.0.1
+  # open a link in browser of device
+  url_launcher: ^5.7.8
+  adhara_socket_io: ^0.4.2+1
+  android_alarm_manager: ^0.4.5+20
+  shared_preferences: ^0.5.12+4
+  synchronized: ^2.2.0+2
+  crypt: ^3.0.1 # hash string
+  footer: ^0.0.3
+
+  # android_intent
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+module:
+  androidX: true
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  assets:
+    - assets/images/main_dashboard/
+    - assets/images/welcome_screen/
+    - assets/images/login_screen/
+    - assets/images/app-schedule/
+    - assets/images/app-management/
+    - assets/images/forgot-password/
+    - assets/images/app-icons/
+    - assets/images/location-tracking/
+    - assets/images/web-filter/
+    - assets/images/notification/
+    - assets/images/device-control/
+    - assets/images/app-blocking/
+    - assets/images/report/
+    - assets/images/splash_screen/
+    - assets/images/kid-screen/
+    - assets/images/
+    - assets/resources/config.json
+
+  fonts:
+    - family: Open_Sans
+      fonts:
+        - asset: fonts/Open_Sans/OpenSans-Bold.ttf
+        - asset: fonts/Open_Sans/OpenSans-SemiBold.ttf
+        - asset: fonts/Open_Sans/OpenSans-Regular.ttf
